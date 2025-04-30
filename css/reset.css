@@ -1,6 +1,6 @@
 /* Reset.css */
 html, body, div, span,
-h1, h2, h3, h4, h5, h6, p,
+h1,  h3, h4, h5, h6, p,
 a, img, ol, ul, li {
     margin: 0;
     padding: 0;
@@ -18,3 +18,15 @@ a{
     text-decoration: none;
 }
 
+button {
+    border-width: 0;
+    border-style: none;
+}
+
+dl,dd,dt{
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    margin : 0;
+}
